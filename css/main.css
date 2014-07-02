@@ -9,6 +9,8 @@ a {
 
 body {
   font-family: 'Droid Serif', sans-serif;
+  background-image: url('../img/skulls.png');
+  background-repeat:repeat;
 }
 
 #wrapper {
