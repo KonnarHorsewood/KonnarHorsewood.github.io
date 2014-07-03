@@ -132,6 +132,25 @@ footer {
   border-radius: 100%;
 }
 
+#aboutgallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#aboutgallery li {
+  color: #bdc3c7;
+  display: inline-block;
+}
+
+#aboutgallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+  text-align: center;
+}
+
 /**********************************
   Contact
 ***********************************/
