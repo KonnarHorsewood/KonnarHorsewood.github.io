@@ -124,9 +124,7 @@ footer {
 /**********************************
   About
 ***********************************/
-  img {
-  max-width: 100%;
-}
+
 .profile-photo {
   display: block;
   max-width: 150px;
