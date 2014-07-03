@@ -216,8 +216,8 @@ nav {
 }
 
 /* Nav Link */
-nav a, nav a {
-  color: white;
+nav a {
+  color: #fff;
 }
 
 /* selected nav link */
