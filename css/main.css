@@ -175,15 +175,15 @@ footer {
 
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+  background-image: url('http://www.inngot.com/images/icons/phone-grey.png');
 }
 
 .contact-info li.mail a { 
-  background-image: url('../img/mail.png');
+  background-image: url('http://c.dryicons.com/images/icon_sets/luna_grey_icons/png/128x128/mail.png');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+  background-image: url('http://ecmyers.net/wp-content/uploads/2010/07/120003-matte-grey-square-icon-social-media-logos-twitter.png');
 }
 
 /**********************************
