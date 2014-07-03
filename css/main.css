@@ -136,7 +136,14 @@ footer {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
+  list-style: none;
   text-align: center;
+}
+
+#aboutgallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
 }
 
 /**********************************
