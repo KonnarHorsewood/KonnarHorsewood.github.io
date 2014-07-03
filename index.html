@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Konnar Horsewood | Graphics Design</title>
-    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic|Open+Sans:400italic,400,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/csswizardry-grids.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       nav a {
@@ -15,6 +16,12 @@
       footer {
         color: Green;
         background-color: none;
+      }
+    </style>
+    <style>
+      .grid__item {
+        
+        vertical-align: bottom;
       }
     </style>
   </head>
@@ -33,46 +40,92 @@
       </nav>
     </header>
     <div id="wrapper">
+<!--       <section>
+  <ul id="gallery">
+  <ul id="aboutgallery">
+  </ul>
+    <li>
+      <a href="http://pl.wallpapersma.com/wallpapers/2013/05/Box-Balls-Pokemon-485x728.jpg" target="_blank">
+        <img src="http://pl.wallpapersma.com/wallpapers/2013/05/Box-Balls-Pokemon-485x728.jpg" alt="">
+        <p>Realistic Pokeballs with Shiny Materials.</p>
+      </a>
+    </li>
+    <li>
+      <a href="http://img3.wikia.nocookie.net/__cb20121215020820/pokemon/images/c/c1/251CelebiHD.png" target="_blank">
+        <img src="http://img3.wikia.nocookie.net/__cb20121215020820/pokemon/images/c/c1/251CelebiHD.png" alt="">
+        <p>Celebi.</p>
+      </a>
+    </li>
+    <li>
+      <a href="http://images.wikia.com/pokemon/images/archive/4/49/20110526012856!Ash_Pikachu.png" target="_blank">
+        <img src="http://images.wikia.com/pokemon/images/archive/4/49/20110526012856!Ash_Pikachu.png" alt="">
+        <p>Pikachu is the best by far.</p>
+      </a>
+    </li>
+    <li>
+      <a href="http://upload.wikimedia.org/wikipedia/fr/0/01/Pok%C3%A9mon_Colosseum_Logo.png" target="_blank">
+        <img src="http://upload.wikimedia.org/wikipedia/fr/0/01/Pok%C3%A9mon_Colosseum_Logo.png" alt="">
+        <p>I love Pokemon so much.</p>
+      </a>
+    </li>
+    <li>
+      <a href="http://www.djwebsolution.com/images/graphic%20design.png" target="_blank">
+        <img src="http://www.djwebsolution.com/images/graphic%20design.png" alt="">
+        <p>Describes my Personality.</p>
+      </a>
+    </li><li>
+      <a href="http://www.artistivemedia.com/images/icon_about.png" target="_blank">
+        <img src="http://www.artistivemedia.com/images/icon_about.png" alt="">
+        <p>I have a dream of Design.</p>
+      </a>
+    </li>
+    </ul>
+</section> -->
+      
+      <!-- New grid @benjaminparry -->
+      
       <section>
-        <ul id="gallery">
-        <ul id="aboutgallery">
-        </ul>
-          <li>
+          
+        <ul class="grid" id="gallery">
+          
+          <li class="grid__item lap--one-half desk--one-third">
             <a href="http://pl.wallpapersma.com/wallpapers/2013/05/Box-Balls-Pokemon-485x728.jpg" target="_blank">
               <img src="http://pl.wallpapersma.com/wallpapers/2013/05/Box-Balls-Pokemon-485x728.jpg" alt="">
               <p>Realistic Pokeballs with Shiny Materials.</p>
             </a>
-          </li>
-          <li>
+          </li><!--
+          --><li class="grid__item lap--one-half desk--one-third">
             <a href="http://img3.wikia.nocookie.net/__cb20121215020820/pokemon/images/c/c1/251CelebiHD.png" target="_blank">
               <img src="http://img3.wikia.nocookie.net/__cb20121215020820/pokemon/images/c/c1/251CelebiHD.png" alt="">
               <p>Celebi.</p>
             </a>
-          </li>
-          <li>
+          </li><!--
+          --><li class="grid__item lap--one-half desk--one-third">
             <a href="http://images.wikia.com/pokemon/images/archive/4/49/20110526012856!Ash_Pikachu.png" target="_blank">
               <img src="http://images.wikia.com/pokemon/images/archive/4/49/20110526012856!Ash_Pikachu.png" alt="">
               <p>Pikachu is the best by far.</p>
             </a>
-          </li>
-          <li>
+          </li><!--
+          --><li class="grid__item lap--one-half desk--one-third">
             <a href="http://upload.wikimedia.org/wikipedia/fr/0/01/Pok%C3%A9mon_Colosseum_Logo.png" target="_blank">
               <img src="http://upload.wikimedia.org/wikipedia/fr/0/01/Pok%C3%A9mon_Colosseum_Logo.png" alt="">
               <p>I love Pokemon so much.</p>
             </a>
-          </li>
-          <li>
+          </li><!--
+          --><li class="grid__item lap--one-half desk--one-third">
             <a href="http://www.djwebsolution.com/images/graphic%20design.png" target="_blank">
               <img src="http://www.djwebsolution.com/images/graphic%20design.png" alt="">
               <p>Describes my Personality.</p>
             </a>
-          </li><li>
+          </li><!--
+          --><li class="grid__item lap--one-half desk--one-third">
             <a href="http://www.artistivemedia.com/images/icon_about.png" target="_blank">
               <img src="http://www.artistivemedia.com/images/icon_about.png" alt="">
               <p>I have a dream of Design.</p>
             </a>
           </li>
-          </ul>
+        </ul>
+        
       </section>
       <footer>
         <a href="http://twitter.com/KonnarH1337" target="_blank"><img src="http://sacramentorealestateclub.net/wp-content/uploads/2013/10/twitter.png" alt="Twitter Logo" class="social-icon" target="_blank"></a>
