@@ -35,7 +35,13 @@ h3 {
 /**********************************
   HEADING
 ***********************************/
-
+<section>
+  <ul>
+    <li>
+      <img src="https://avatars3.githubusercontent.com/u/8025289?s=460" alt="Photograph on Banner">
+    </li>
+  </ul>
+</section>
 
 header {
   float: left;
