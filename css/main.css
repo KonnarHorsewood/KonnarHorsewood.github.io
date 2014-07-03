@@ -132,6 +132,13 @@ footer {
   border-radius: 100%;
 }
 
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  text-align: center;
+}
+
 /**********************************
   Contact
 ***********************************/
