@@ -125,7 +125,7 @@ footer {
   About
 ***********************************/
   img {
-  max-width: 50%;
+  max-width: 100%;
 }
 .profile-photo {
   display: block;
@@ -134,18 +134,23 @@ footer {
   border-radius: 100%;
 }
 
+#aboutgallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#aboutgallery li {
+  color: #bdc3c7;
+  display: inline-block;
+}
+
 #aboutgallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  list-style: none;
+  color: #bdc3c7;
   text-align: center;
-}
-
-#aboutgallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
 }
 
 /**********************************
