@@ -217,10 +217,10 @@ nav {
 
 /* Nav Link */
 nav a {
-  color: #fff;
+  color: #white;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #white
+  color: #purple
 }
