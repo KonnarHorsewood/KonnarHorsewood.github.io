@@ -223,11 +223,11 @@ nav a {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #8CDB43
+}
 
-
-.twitter a:hover {
+li.twitter a:hover {
 color: #8CDB43;
-
+}
 .mail a:hover {
   color: #8CDB43;
 }
