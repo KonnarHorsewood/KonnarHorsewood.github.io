@@ -216,7 +216,7 @@ nav {
 }
 
 /* Nav Link */
-
+    
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: white;
