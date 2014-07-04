@@ -216,13 +216,10 @@ nav {
 }
 
 /* Nav Link */
-nav a {
-  color: #fff;
-}
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: green;
+  color: white;
 }
 
 .contact-info li a:hover {
