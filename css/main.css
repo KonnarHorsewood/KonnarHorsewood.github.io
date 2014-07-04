@@ -92,7 +92,7 @@ footer {
   font-size: 1.0em;
   text-align: center;
   padding-top: 50px;
-  color: #white;
+  color: white;
 }
 
 .social-icon {
@@ -174,7 +174,7 @@ footer {
 
 
 a {
-  color: white;
+  color: #3DF500;
 }
 .contact-info li.phone a {
   background-image: url('http://www.iconsdb.com/icons/download/white/phone-18-256.png');
@@ -222,16 +222,9 @@ nav a {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #8CDB43
+  color: white;
 }
 
-li.twitter a:hover {
-color: #8CDB43;
-}
-.mail a:hover {
-  color: #8CDB43;
-}
-
-.phone a:hover {
+.contact-info li a:hover {
   color: #8CDB43;
 }
