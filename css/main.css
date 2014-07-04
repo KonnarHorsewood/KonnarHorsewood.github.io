@@ -222,5 +222,5 @@ nav a {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #551A8B
+  color: #white
 }
