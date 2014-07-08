@@ -228,9 +228,9 @@ nav {
     
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: red;
+  color: cyan;
 }
 
 .contact-info li a:hover {
-  color: red;
+  color: cyan;
 }
