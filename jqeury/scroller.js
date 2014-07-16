@@ -1,5 +1,5 @@
 // init scroller
-var s = scroller.init();
+var s = skrollr.init();
 
 // refresh scroller after resizing the sections on website
-s.refresh($('.homeslide'));
+s.refresh($('.homeSlide'));
