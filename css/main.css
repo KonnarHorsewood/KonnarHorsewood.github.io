@@ -174,7 +174,7 @@ footer {
 
 
 a {
-  color: #3DF500;
+  color: white;
 }
 .contact-info li.phone a {
   background-image: url('http://www.iconsdb.com/icons/download/white/phone-18-256.png');
@@ -228,7 +228,7 @@ nav {
     
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: orange;
+  color: cyan;
 }
 
 .contact-info li a:hover {
