@@ -204,13 +204,13 @@ a {
 
 /* site body */
 body {
-  background-color: black;
+  background-color: grey;
   color: black;
   margin: 0;
 }
 
 header {
-  background: #00C2FF;
+  background: grey;
   border-color: #003
 }
 
